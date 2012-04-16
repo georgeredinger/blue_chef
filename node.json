@@ -1,0 +1,10 @@
+{
+	"user": {
+		"name": "deployer",
+		"password": "#{ENV["DEPLOYER_PASSWORD"]}",
+		"ls_color": true
+	},
+	"run_list": ["recipe[main]"]
+}
+
+
